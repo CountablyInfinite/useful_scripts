@@ -1,5 +1,5 @@
 # python script to resize all images inside the current folder to 1/2 of the original size and export it to ./resized as .jpg in 80% quality.
-# author: countablyinfinite
+# author: CountablyInfinite
 
 from PIL import Image
 import os
