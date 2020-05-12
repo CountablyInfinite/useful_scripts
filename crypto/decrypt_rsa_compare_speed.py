@@ -23,7 +23,7 @@ def square_and_multiply(base,exp,mod):
     return x % mod
 
 # a: value to calculate reciprocal for
-# b: Residue class mod(b)
+# b: residue class mod(b)
 def extendedeuclid(a, b):
     x0, x1, y0, y1 = 1, 0, 0, 1
     while b != 0:
