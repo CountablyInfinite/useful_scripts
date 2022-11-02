@@ -22,4 +22,12 @@ A sample implementation of the baby step -> giant step algorithm to compute disc
 ## Javascript
 
 ### kill_onevent.js
-A short script that removes all "on" events that are actively blocking copying and pasting into a form. The script is heavily based on the solution of user Triynko in [this](https://stackoverflow.com/questions/4760132/improving-login-security-through-denial-of-copy-paste) stackoverflow discussion. Copy and Paste it into your browser console and enjoy. If you want to remove more events you can extent the array onevents with additional events.
+A short script that removes all "on" events that are actively blocking copying and pasting into a form. The script is heavily based on the solution of user Triynko in [this](https://stackoverflow.com/questions/4760132/improving-login-security-through-denial-of-copy-paste) stackoverflow discussion. Copy and Paste it into your browser console and enjoy. If you want to remove more events you can extend the array onevents with additional events.
+
+### force_download
+
+#### force_download_long.html
+An embedded script that will force a user to download a file without actually clicking download (drive by download). It has been inspired by John Hammond's youtube video and the gist he publisched you can find here: https://gist.github.com/JohnHammond/ . The b64 encoded content of the file is embedded into the html file. The downloaded file is a harmless image of the glider.
+
+#### force_download_short.html
+An embedded script that will force a user to download a file without actually clicking download (drive by download). It has been inspired by John Hammond's youtube video and the comments in the gist he publisched (user jimmywarting & Orkking2) you can find here: https://gist.github.com/JohnHammond/ . The b64 encoded content of the file is stored in glider_b64.txt (in the same folder). The downloaded file is a harmless image of the glider. **Due to CORS limitation, the script will not work on localhost.**
